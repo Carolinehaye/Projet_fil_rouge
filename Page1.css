@@ -16,7 +16,7 @@ body {
 
 /* SECTION ACCUEIL - DEBUT*/
 #accueil {
-    background: url(Images/fond_bg.png) no-repeat center / cover;
+    background: url(Images/bg/fond_bg.png) no-repeat center / cover;
     height : 100vh;
     width : 100%;
 }
@@ -85,7 +85,7 @@ h1 {
     padding-left: 20%;
     padding-top: 5%;
 
-    background: url(images/Fond_ellipses1.png) no-repeat center; 
+    background: url(images/bg/fond_circles_1.png) no-repeat center; 
     /* background: url(images/Fond-ellipses.png) no-repeat center / cover; */
     
 }
@@ -112,9 +112,8 @@ h1 {
     padding-left: 15%;
     padding-top: 5%;
 
-    /* background: url(images/design.png) no-repeat 70% 30%; */
-    /* background: url(images/circle_gradient_respon.png) no-repeat 70%; */
-    background: url(images/Fond-el2.png) no-repeat center; 
+
+    background: url(images/bg/fond_circles_2.png) no-repeat center; 
 }
 
 .bloctext5 {
