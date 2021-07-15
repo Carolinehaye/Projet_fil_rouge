@@ -1,0 +1,393 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+/* SECTION ACCUEIL - DEBUT*/
+#accueil {
+    background: url(Images/fond_bg.png) no-repeat center / cover;
+    height : 100vh;
+    width : 100%;
+}
+
+nav {
+  position: relative;
+  top: 42%;
+  gap: 25px;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #6075AC;
+    text-align: center;
+
+    position: relative;
+    top: 40%;
+
+    margin-bottom:  50px;
+}
+/* SECTION ACCUEIL - FIN*/
+
+
+
+
+/* SECTION IDENTITE - DEBUT*/
+#identite {
+    height : 90vh;
+    width : 100%;
+
+    padding-left: 35%;
+    padding-top: 5%;
+
+    background: url(images/identitenumerique.png) no-repeat 15%;
+
+}
+
+.bloctext3 {
+    height: 500px; 
+    width: 700px; 
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-top: 5%;
+    margin: 15px;
+}
+
+/* SECTION  IDENTITE - FIN*/
+
+
+
+/* SECTION  VIS/INV- DEBUT*/
+#visinv {
+    height : 90vh;
+    width : 100%;
+
+    padding-left: 20%;
+    padding-top: 5%;
+
+    background: url(images/Fond_ellipses1.png) no-repeat center; 
+    /* background: url(images/Fond-ellipses.png) no-repeat center / cover; */
+    
+}
+
+.bloctext4 {
+    height: 500px; 
+    width: 900px; 
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-end;
+    padding-top: 5%;
+}
+/* SECTION  VIS/INV - FIN*/
+
+
+/* SECTION  ART- DEBUT*/
+#art {
+    height : 90vh;
+    width : 100%;
+
+    padding-left: 15%;
+    padding-top: 5%;
+
+    /* background: url(images/design.png) no-repeat 70% 30%; */
+    /* background: url(images/circle_gradient_respon.png) no-repeat 70%; */
+    background: url(images/Fond-el2.png) no-repeat center; 
+}
+
+.bloctext5 {
+    height: 500px; 
+    width: 700px; 
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+}
+/* SECTION  ART- FIN*/
+
+.galerie {
+  font-size: 30px;
+
+}
+
+/* SECTION  GALERIE- FIN*/
+
+
+
+/* SECTION PACKETGARDEN - DEBUT */
+
+.titre {
+    padding: 2%;
+    color: #485d91;
+    }
+
+#packetgarden {
+    height : 60vh;
+    width : 100%;
+
+    font-size: 17px;
+
+    display: flex; 
+    padding-left: 10%;
+
+}
+
+
+h2 {
+    padding-bottom: 5%;
+}
+
+.bloctext1 {
+    height: 400px; 
+    width: 700px; 
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* padding-top: 5%; */
+}
+
+
+.hackeuses {
+    height: 440px;
+    width: 360px;
+    padding-left: 5%;
+    
+    position: relative;
+    top: 20%;
+}
+
+.vid {
+    height: 300px;
+    width: 400px;
+}
+
+/* SECTION PACKETGARDEN - FIN*/
+
+
+
+
+.bloctextpacket {
+    height: 500px; 
+    width: 700px; 
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-top: 5%;
+}
+
+
+/* SECTION PACKET GARDEN - FIN*/
+
+
+
+footer {
+  background: black;
+  color: white;
+  height: 10vh;
+  width: 100%; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 10%;
+
+}
+
+
+@media (max-width: 1140px) {
+    
+.bloctext3 {
+    width: 500px; 
+    align-items: center;
+
+}
+
+}
+
+@media (max-width: 1000px) {
+   
+.titre {
+    padding: 2%;
+    }
+
+    #visinv {
+
+background-image: none; 
+background: url(images/ellipses_respon.png) no-repeat center;
+
+
+ }
+
+ .bloctext4 {
+    width: 600px; 
+    align-items: center;
+ }
+
+ #art {
+    background-image: none; 
+    background: url(images/circle_gradient_respon.png) no-repeat center;
+ }
+
+ 
+.bloctext5 {
+  
+    align-items: center;
+}
+
+
+
+.bloctext3 {
+    width: 500px; 
+    align-items: center;
+
+}
+
+}
+
+
+@media (max-width: 850px) {
+
+
+    .titre {
+        padding: 5%;
+        }
+
+    .bloctext4 {
+        width: 400px;
+    }
+
+    
+    .bloctext3 {
+        width: 400px;
+    }
+
+    .bloctext5 {
+        width: 500px;
+    }
+
+}
+
+
+@media (max-width: 630px) {
+    .bloctext3 {
+        width: 300px;
+    }
+
+    .bloctext5 {
+        width: 400px;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+
+    #visinv {
+        font-size: 15px;
+        padding-left: 20%; 
+
+      background-image: none; 
+      background: url(images/ellipses_respon.png) no-repeat center;
+    }
+    
+    .bloctext4 {
+        width: 300px; 
+        align-items: center;
+
+    }
+
+    
+#art {
+
+    font-size: 15px;
+    background-image: none; 
+    background: url(images/circle_gradient_respon.png) no-repeat center;
+
+
+    padding-left: 20%; 
+    
+}
+
+.bloctext5 {
+    width: 300px; 
+    align-items: center;
+}
+
+
+#identite {
+
+    font-size: 15px;
+    padding-left: 17%;
+    
+    background-image: none; 
+    background: url(images/fantome_respon.png) no-repeat center top 30% ;
+
+}
+
+.bloctext3 {
+    width: 300px; 
+    align-items: center;
+
+}
+
+.galerie {
+    height: 30vh ;
+}
+
+#packetgarden {
+    display: flex;
+    flex-direction: column;
+}
+
+.hackeuses {
+    width: 500px;
+    height: 200px;
+
+    padding-left: 0%;
+    margin-top: 15%; 
+
+}
+
+.bloctext1 {
+height: 20px; 
+width: 350px;
+font-size: 15px;
+display: flex;
+
+}
+
+.titre {
+padding: 5%;
+}
+
+
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(Images/fond_bg.png) no-repeat center / cover;
+    height : 100vh;
+    width : 100%;
+}
+
+a {
+    text-decoration: none; 
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+    position: relative;
+    top: 45%;
+}
+
+ .paupol {
+    color: #6075AC;
+    font-size: 15px;
+}
