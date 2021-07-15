@@ -86,8 +86,6 @@ h1 {
     padding-top: 5%;
 
     background: url(images/bg/fond_circles_1.png) no-repeat center; 
-    /* background: url(images/Fond-ellipses.png) no-repeat center / cover; */
-    
 }
 
 .bloctext4 {
@@ -130,6 +128,7 @@ h1 {
 
 .galerie {
   font-size: 30px;
+  color: #485d91
 
 }
 
@@ -155,6 +154,9 @@ h1 {
 
 }
 
+.hackeuses {
+
+}
 
 h2 {
     padding-bottom: 5%;
@@ -181,10 +183,6 @@ h2 {
     top: 20%;
 }
 
-.vid {
-    height: 300px;
-    width: 400px;
-}
 
 /* SECTION PACKETGARDEN - FIN*/
 
@@ -390,3 +388,51 @@ padding: 5%;
 
 
 }
+
+ @media (max-width: 310px) {
+
+
+    h1 {
+        font-size: 15px;
+    }
+
+    nav img {
+        width: 40px;
+    }
+
+    .titre {
+        padding: 2%;
+        font-size: 15px;
+        }
+
+    .bloctext4 {
+    width: 200px;
+    height: auto;
+
+    }
+
+    .bloctext5 {
+        width: 200px;
+        height: auto;
+        
+        }
+
+    #art {
+    height: 50vh;
+ 
+ } 
+
+        .bloctext3 {
+            width: 200px;
+            height: auto;
+            
+            }
+
+    
+    #identite {
+        height: 100vh;
+             
+             } 
+    
+} 
+

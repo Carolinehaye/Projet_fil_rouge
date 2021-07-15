@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(Images/fond_bg.png) no-repeat center / cover;
+    background: url(Images/bg/fond_bg.png) no-repeat center / cover;
     height : 100vh;
     width : 100%;
 }
@@ -17,7 +17,6 @@ a {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
     font-size: 20px;
     color: white;
     text-align: center;
